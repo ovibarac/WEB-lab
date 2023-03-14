@@ -1,0 +1,241 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="ro">
+    <head>
+        <title>Formular feedback</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+
+    <body>
+        <p>Feedbackul tau e important pentru noi</p>
+        <h1>Formular feedback aplicatie</h1>
+        <form id="form-div" action="POST">
+            <table id="form-table" style="text-align: left;background-color: rgb(201, 201, 201);">
+                
+                <tbody>
+                    <tr>
+                        <td>
+                            <table id="form-table-user">
+                                <thead>
+                                    <tr>
+                                        <th colspan="4">Detalii utilizator</th>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                            
+                                        <td><strong>Prenume</strong></td>
+                                        <td><input  id="fname" type="text" name="fname" maxlength="20" ></td>
+                                        
+                                        <td><strong>Nume</strong>:</td>
+                                        <td><input  id="sname" type="text" name="sname" maxlength="20" ></td>   
+                                    </tr>
+  
+                                    <tr>
+                                        <td><strong>E-mail</strong>:</td>
+                                        <td><input  id="email" type="text" name="email" maxlength="60" ></td>
+                                        
+                                        <td>Gen:</td>
+                                        <td>
+                                            <ul>
+                                                <li>
+                                                    <input  type="radio" name="gender" value="m" disabled>Barbat
+                                                </li>
+                                                <li>
+                                                    <input type="radio" name="gender" value="f">Femeie
+                                                </li>
+                                                <li>
+                                                    <input type="radio" name="gender" value="f">Other
+                                                </li>
+                                            </ul>                        
+                                        </td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td rowspan="3">Adresa:</td>
+                                        <td>City:</td>
+                                        <td>
+                                            <select id="city">
+                                                <option value="">Alege</option>
+                                                <option value="cj">Cluj-Napoca</option>
+                                                <option value="sb">Sibiu</option>
+                                                <option value="sj">Constanta</option>
+                                                <option value="bh">Oradea</option>
+                                                <option value="bv">Brașov</option>
+                                                <option value="tm">Timișoara</option>
+                                            </select>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Adresa 1:</td>
+                                        <td><input type="text" maxlength="40" name="adr1"></td>
+                                        <td></td>
+                                    </tr>
+                                             
+                                    <tr>               
+                                        <td>Adresa 2:</td>
+                                        <td><input type="text" maxlength="40" name="adr2"></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <table id="form-table-results">
+                                <thead>
+                                    <tr>
+                                        <th colspan="4">Experienta</th>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td>Aplicatie:</td>
+                                        <td>
+                                            <select  id="app" multiple>
+                                                <option value="" selected>Word</option>
+                                                <option value="">Excel</option>
+                                                <option value="">Powerpoint</option>
+                                            </select>
+                                        </td>
+                                        
+                                        <td>Durata folosire:</td>
+                                        <td><input  id="duration" type="text" name="duration" value="1"></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Nivel satisfactie:</td>
+                                        <td colspan="2">
+                                            <fieldset>
+                                                <legend>Satisfactie</legend>
+                                                <input type="radio" name="comfo<prt" value="1">1
+                                                <input type="radio" name="comfort" value="2">2
+                                                <input type="radio" name="comfort" value="3">3
+                                                <input type="radio" name="comfort" value="4">4
+                                                <input type="radio" name="comfort" value="5">5
+                                            </fieldset>
+                                            
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Probleme intampinate:</td>
+                                        <td colspan="2">
+                                            <ol>
+                                                <li>
+                                                    <input type="checkbox" name="features" value="autopilot">Bug-uri
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="features" value="chairs">Merge incet
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="features" value="computer">Interfata neclara
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="features" value="multimedia">Porneste greu
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="features" value="spacious">Lipsa functionalitati
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="features" value="wheel">Conectivitate
+                                                </li>
+                                            </ol>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <table id="form-table-questions">
+                                <thead>
+                                    <tr>
+                                        <th>Intrebari</th>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <ol type="1" start="1">
+                                                <li>Ai recomanda aplicatia unui prieten?<br>
+                                                <input type="radio" name="buy" value="yes">Da
+                                                <input type="radio" name="buy" value="no">Nu</li>
+                                                <li>Cum se compara cu competitia?<br>
+                                                    <input type="text" maxlength="200" size="150">
+                                                    <ul>
+                                                        <li>Ce produs crezi ca e mai bun?<br>
+                                                            <input type="text" maxlength="200" size="150"></li>
+                                                        <li>Esti sigur?<br>
+                                                            <input type="text" maxlength="200" size="150" readonly></li>
+                                                    </ul>
+                                                </li>
+
+                                                <li>Ai continua sa folosesti aplicatia?<br>
+                                                    <input type="text" maxlength="200" size="150">
+                                                    <ul>
+                                                        <li>Daca nu, ce am putea adauga ca sa te razgandesti?<br>
+                                                            <input type="text" maxlength="200" size="150"></li>
+                                                        <li>Esti sigur?<br>
+                                                            <input type="text" maxlength="200" size="150" readonly></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                                <li>Mai vrei sa ne transmiti ceva?<br>
+                                                <input type="text" maxlength="100" size="150"></li>
+                                            </ol>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <table id="form-table-comments">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">Pro si contra</th>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td>Pro</td>
+                                        <td>Contra</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><textarea cols="40" rows="10"></textarea></td>
+                                        <td><textarea cols="40" rows="10"></textarea></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <input type="submit">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        
+        <br><br>
+        <br>
+    </body>
+</html>
