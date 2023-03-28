@@ -1,0 +1,25 @@
+#parinte{
+    display: flex;
+    width: 400px;
+    border: 1px black solid;
+}
+
+#stanga{
+    width: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#dreapta{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
+
+#chonk{
+    max-width: 200px;
+    align-items: center;
+}
