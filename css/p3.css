@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+#header{
+    background-color: red;
+    height: 100px;
+}
+
+#main{
+    height:500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#meniu{
+    background-color: yellow;
+    height: 25px;
+    padding: 0px;
+    font-size: 0.67em;
+}
+#meniu li{
+    display: inline-block;
+    
+}
+
+#continut{
+    background-color: green;
+    height: fit-content;
+    text-align: left;
+    flex-grow: 1;
+}
+
+#footer{
+    background-color: pink;
+    height:60px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}

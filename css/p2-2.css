@@ -1,0 +1,31 @@
+#header{
+    background-color: red;
+    height: 100px;
+}
+
+#main{
+    height:500px;
+    display: flex;
+    flex-direction: row;
+}
+
+#meniu{
+    background-color: yellow;
+    height: 100%;
+    width: 20%;
+}
+
+#continut{
+    background-color: green;
+    height: 100%;
+    width: 80%;
+}
+
+#footer{
+    background-color: pink;
+    height:50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+
+}

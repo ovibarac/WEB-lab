@@ -1,0 +1,11 @@
+body{
+    font-size: 1.3em;
+}
+.in{
+    font-size: 1.3em;
+    font-family: monospace;
+    letter-spacing: 9px;
+    border: 1px solid black;
+    background: repeating-linear-gradient(to right, #fff, #fff 1.65ch, #000 1.65ch, #000 calc(1.65ch + 1px));
+}
+

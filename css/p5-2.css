@@ -1,0 +1,15 @@
+#container{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 700px;
+    border: 1px solid black;
+}
+
+.cat{
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    margin: 10px;
+}
